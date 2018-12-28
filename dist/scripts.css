@@ -1,0 +1,23 @@
+/* Add only variables */
+/*  Font-Size */
+/*  Line-Height */
+/* Add only global changes */
+body {
+  font-size: 1em;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* Add only additional mixins */
+/* 768px */
+/* 1024px */
+/* 1366px */
+/* 1920px */
+/* 2560px */
+
