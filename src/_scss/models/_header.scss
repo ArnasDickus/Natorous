@@ -1,4 +1,51 @@
 
 .header{
+    // at every point the box should be 95% of viewport height.
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.8),
+        rgba(40, 180, 131, 0.8),),
+    url("../img/hero.jpg"); 
 
+    // Always try to fit element inside the box
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    // Clip: Top left, top right, bottom right bottom left
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+
+    &__logo-box{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+    &__logo{
+        height: 35px;
+    }
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__primary{
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__primary-main{
+        display: block;
+        font-size: 3.75rem;
+        font-weight: 400;
+        letter-spacing: 2.1875rem;
+    }
+    &__primary-sub{
+        display: block;
+        font-size: 1.25rem;
+        font-weight: 700;
+        letter-spacing: 1.0875rem;
+        
+    }
 }
