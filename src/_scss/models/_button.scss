@@ -55,6 +55,7 @@
     }
     &--animated{
         animation: moveInBottom .5s ease-out .75s;
+        // Animation becomes 0
         animation-fill-mode: backwards;
     }
 
