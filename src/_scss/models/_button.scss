@@ -1,0 +1,72 @@
+.button{
+
+
+    &:link, &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.06rem 2.5rem;
+        display: inline-block;
+        border-radius: 6.25rem;
+        transition: all .2s;
+
+        // Needs to be setup so that position absolute work for
+        position: relative;
+        
+        
+    }
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 0.625rem 1.25rem rgba(0,0,0, .2);
+    }
+
+    &:active{
+        transform: translate(-1px);
+        box-shadow: 0 5px 0.625rem rgba(0,0,0, .2);
+    }
+
+    &--white{
+        background-color: #fff;
+        color: #777;
+    }
+    &--white::after{
+        background-color: #fff;
+    }
+
+    &::after{
+        // Must-specify for it to work
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+
+        transition: all .4s;
+    }
+
+    &:hover:after{
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+    &--animated{
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+    }
+
+}
+
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+     }   
+}

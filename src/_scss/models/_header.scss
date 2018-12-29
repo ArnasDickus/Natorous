@@ -30,6 +30,7 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-align: center;
     }
     &__primary{
         color: #fff;
@@ -37,6 +38,7 @@
 
         // Removes ending animation shakiness
         backface-visibility: hidden;
+        margin-bottom: 3.75rem;
     }
     &__primary-main{
         display: block;
