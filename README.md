@@ -8,6 +8,7 @@ Live version will be available as soon as project is finished.
 Clone this repo
 Run npm install
 Run npm start
+Run npm run build for building files
 
 ## Authors
 
