@@ -33,7 +33,7 @@
         text-align: center;
     }
     &__primary{
-        color: #fff;
+        color: $color-white;
         text-transform: uppercase;
 
         // Removes ending animation shakiness
@@ -62,32 +62,4 @@
         animation: moveInRight 1s ease-out;
         
     }
-}
-
-@keyframes moveInLeft {
-    0%{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    80%{
-        transform: translateX(10px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-     }   
-}
-
-@keyframes moveInRight {
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    80%{
-        transform: translateX(-10px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-     }   
 }
