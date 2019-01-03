@@ -5,9 +5,23 @@ Natorous is a website created with the help of udemy Advanced CSS and Sass: Flex
 Live version will be available as soon as project is finished.
 
 ## Getting Started
-Clone this repo
-Run npm install
-Run npm start
+Getting project
+```
+Clone or download this repository
+```
+Installing all dependacies
+```
+npm install
+```
+For launching a live server
+```
+npm start
+```
+For creating development folder
+```
+npm run build
+```
+
 
 ## Authors
 
