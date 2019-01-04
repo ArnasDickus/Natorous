@@ -1,9 +1,17 @@
 
 
-@import "base/_variables";
-@import "base/_global";
-@import "base/_mixins";
-@import "base/animatons";
+@import "abstracts/_variables";
+@import "abstracts/_mixins";
+@import "abstracts/_functions";
 
-@import "models/_header";
-@import "models/_button";
+@import "base/_animations";
+@import "base/_base";
+@import "base/_typography";
+@import "base/_utilities";
+
+@import "components/_button";
+
+@import "layout/_header";
+
+@import "pages/_home";
+

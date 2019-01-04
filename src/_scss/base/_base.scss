@@ -1,0 +1,17 @@
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  // Contraversial to set margin and padding to 0 for speed reason.
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  // This defines what 1rem is.
+  font-size: 62.5%;
+}
