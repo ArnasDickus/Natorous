@@ -39,9 +39,9 @@ body {
     
     &__main{
         display: block;
-        font-size: 3.75rem;
+        font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 2.1875rem;
+        letter-spacing: 3.5rem;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
@@ -53,9 +53,9 @@ body {
     }
     &__sub{
         display: block;
-        font-size: 1.25rem;
+        font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 1.0875rem;
+        letter-spacing: 1.75rem;
         animation: moveInRight 1s ease-out;
         
     }

@@ -1,6 +1,12 @@
 
 /* Add only additional mixins */
-
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 /* 768px */
 $atSmall: "(min-width: 48em)";
 

@@ -1,7 +1,6 @@
 
 
-
-/* Add only variables */
+// Colors
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
@@ -9,6 +8,11 @@ $color-primary-dark: #28b485;
 $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #000;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
 
 /*  Font-Size */
 $base_font_size: 1em;
